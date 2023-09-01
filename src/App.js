@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './shared/Navbar';
 import CatImages from './component/CatImages';
-import './App.css';
+import '../src/styles/App.css';
 
 function App() {
   return (
