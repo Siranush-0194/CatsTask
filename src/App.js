@@ -6,7 +6,7 @@ import '../src/styles/App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Cat`s categories with images</h1>
+      <h1>Categories of Cats with pictures</h1>
       <Navbar />
       <CatImages />
     </div>

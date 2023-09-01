@@ -12,15 +12,17 @@ const CatImages = ({ catImages, selectedCategory, fetchCatImages }) => {
   }, [selectedCategory, fetchCatImages, page]);
 
   const handleSeeMore = () => {
-    setPage(page + 1); 
+    setPage(page + 1);
   };
+
 
   return (
     <div className="cat-images">
       {catImages.map((cat) => (
         <img key={cat.id} src={cat.url} alt="Cat" />
       ))}
-      <button  className="see-more-button" onClick={handleSeeMore}>See More</button>
+      <button className="see-more-button" onClick={handleSeeMore}>See More</button>
+
     </div>
   );
 };
